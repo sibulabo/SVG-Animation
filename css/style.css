@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #3e0106, #6d2f2f, #3e0106);
+}
+
+#alien {
+    height: 150px;
+    width: 150px;
+    stroke: white;
+    fill-opacity: 0;
+    stroke-width: 4px;
+    stroke-dasharray: 5000;
+}
+
+#alien-text {
+    color: white;
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 10px;
+    margin-left: 8px;
+    color: gold;
+}
